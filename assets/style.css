@@ -35,7 +35,7 @@ section {
 }
 
 .main-logo img {
-  padding-top: 97px;
+  padding-top: 140px;
   padding-bottom: 15px;
 }
 
@@ -94,10 +94,37 @@ section {
   cursor: pointer;
 }
 
+.search-bar {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  margin-left: 10px;
+}
+
+.search-box {
+  color: transparent;
+  white-space: pre;
+  display: flex;
+  flex: 100%;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  margin-top: -4px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.87);
+  line-height: 40px;
+}
+
 .main-btns {
   margin-top: 15px;
   display: flex;
   justify-content: center;
+  color: transparent;
 }
 
 .btn-style {
@@ -116,6 +143,10 @@ section {
   text-align: center;
   cursor: pointer;
   user-select: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 button:hover {
